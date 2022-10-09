@@ -1,0 +1,134 @@
+body {
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.big-heading {
+    font-size: 3rem;
+    line-height: 1.2;
+    padding: 8% 0%;
+    color: white;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+.color-sec {
+    background-color: #D36B00;
+    color: white;
+}
+
+.white-sec {
+    background-color: white;
+}
+
+.navbar-brand {
+    font-family: 'Modak';
+    font-size: 2.5rem;
+}
+
+.nav-item {
+    padding: 0 12px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+.download-btn {
+    margin: 2% 3% 5% 0%;
+}
+
+.title_img {
+  width: 32%;
+  transform: rotate(24deg);
+  padding: 0% 5%;
+  position: absolute;
+  right: 16%;
+}
+
+#features {
+    position: relative;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+.props {
+    padding: 0% 3%;
+    line-height: 1.5;
+}
+
+.icon {
+    color: #E60965;
+    padding: 5% 0%;
+}
+
+.icon:hover {
+    color: #D36B00;
+}
+
+#testimonials {
+    background-color: #E60965;
+}
+
+.testimonial-text {
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.test-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #E60965;
+    padding-bottom: 3%;
+}
+
+.press-img {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#pricing {
+    padding: 100px;
+}
+
+.price-text {
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+@media (max-width: 1000px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .rotate {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+.foot-icon {
+    margin: 2% 1%;
+}
